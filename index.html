@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Echohomes</title>  
+  <link rel="stylesheet" href="/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient border-1 border-bottom py-3" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Echohomes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#map">Map</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Grants
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="form.html">Greenplus</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li> 
+              <li><a class="dropdown-item" href="form2.html">Greenstart</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#materials">Materials</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousel -->
+
+  <div class="carousel-container">
+  <div id="carouselExample" class="carousel slide w-100 h-100">
+    <div class="carousel-inner w-100 h-100">
+      <div class="carousel-item active w-100 h-100">
+        <img src="images/housing.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Discover Sustainable housing in your area</h2>
+          <p>Use our interactive map to find accommodation which suits your needs using our sustainablility based filters</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/grant.avif" class="d-block w-100 h-100 object-fit-cover" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Learn more about governemt grants and how they can help you</h2>
+          <p>Using our app learn about government grants and how you can benefit from them </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/sustainable.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Learn more about how to create a more sustainable future</h2>
+          <p>Discover more about sustainable materials and how we can use them to create a more sustainable future for all of us</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+  
+
+
+
+</div>
+  <!--cards-->
+      <div class="container-xl">
+        <div id="featuredPropertiesCarousel" class="carousel slide" data-bs-ride="carousel">
+     
+          <div class="carousel-inner">
+            <h2>Features</h2>
+          
+            <div class="carousel-item active">
+              <div class="row pb-4">
+               
+                <div class="col-4">
+                  <div class="card h-100 shadow">
+                    <img src="images/map.webp" class="card-img-top" alt="Property 1">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title text-success">Maps</h5>
+                      <p class="card-text">
+                        Discover affordable housing using our interactive map</p>
+                      <a href="#map" style="background-color: rgb(43, 43, 43);"
+                        class="btn bg-success text-light fw-semibold mt-auto ">Map details</a>
+                        
+                    </div>
+                  </div>
+                </div>
+
+                
+                <div class="col-4">
+                  <div class="card h-100 shadow">
+                    <img src="images/grants.avif" class="card-img-top" alt="Property 2">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title text-success">Grants</h5>
+                      <p class="card-text ">Learn more about government grants, how they can benefit you and how you can apply for them</p>
+                      <a href="#grants" style="background-color: rgb(43, 43, 43);"
+                        class="btn bg-success text-light fw-semibold mt-auto">Grant details</a>
+                    </div>
+                  </div>
+                </div>
+
+                
+                <div class="col-4">
+                  <div class="card h-100 shadow">
+                    <img src="images/materials.avif" class="card-img-top" alt="Property 3">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title text-success">Sustainable materials</h5>
+                      <p class="card-text">Discover more about sustainable materials, how they are made, why we should use them and how you can help make the future more sustainable</p>
+                      <a href="#materials" style="background-color: rgb(43, 43, 43);"
+                        class="btn bg-success text-light fw-semibold mt-auto">material details</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--map div-->
+    <div class="container-fluid bg-dark text-light p-4 align-items-center bg-gradient" id="map">
+      <div class="row">
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18906.129712753736!2d6.722624160288201!3d60.12672284414915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463e997b1b6fc09d%3A0x6ee05405ec78a692!2sJ%C4%99zyk%20trola!5e0!3m2!1spl!2spl!4v1672239918130!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-3">
+          <h2 class="text-success">Discover affordable housing using our interactive map</h2>
+          <p>Use our interactive map to find accommodation which best suits your needs using our sustainability based filters, as well finding which grants can help you with your housing journey.</p></div>
+      </div>
+    </div>
+ 
+    <!--grants div-->
+ 
+    <div class="container ">
+ 
+      <div class="col-12 text-center border-top py-4" id="grants">
+         <h3>Why Choose Sustainable Living ?</h3>
+       </div>
+         <div class="row py-5">
+        <div class="col-md-6 col-sm-12 ">
+          <div class="card shadow">
+            <h4 class="resource-header text-center">GreenPlus</h4>
+            <div class="card-body">
+              <p class="resource-text text-center">With new government policies on decarbonisation, rising energy costs and shifting consumer expectations, sustainability is now at the top of every business agenda. With GreenPlus, we can help your business to prepare for a greener, more sustainable future.<br>
+                <a href="form2.html" style="background-color: rgb(43, 43, 43);"
+                class="btn bg-success text-light fw-semibold mt-auto">See if im applicable</a>
+              </p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-6 col-sm-12 ">
+          <div class="card shadow">
+            <h4 class="resource-header text-center">GreenStart</h4>
+            <div class="card-body">
+              <p class="resource-text text-center">Every business is now working toward a greener future by incorporating sustainable practices into their day to day operations. With Access Advice: GreenStart, we’re helping businesses to improve their environmental performance through greater resource efficiency, driving competitive advantage and reducing costs.<br>
+                <a href="form.html" style="background-color: rgb(43, 43, 43);"
+                class="btn bg-success text-light fw-semibold mt-auto">See if im applicable</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-6 col-sm-12 ">
+          <div class="card shadow">
+            <h4 class="resource-header text-center">Climate action voucher </h4>
+            <div class="card-body">
+              <p class="resource-text text-center">Is your business sustainable and climate action ready? With this support, we can help your business to plan for a ‘green transformation’ by reducing emissions and becoming more resource efficient.<br>
+                <a href="form.html" style="background-color: rgb(43, 43, 43);"
+                class="btn bg-success text-light fw-semibold mt-auto">See if im applicable</a>
+              </p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-6 col-sm-12 ">
+          <div class="card">
+            <h4 class="resource-header text-center">Strategic Consultancy Assignment</h4>
+            <div class="card-body">
+              <p class="resource-text text-center">In challenging times, strategy is more important than ever. A strategy consultant can provide your business with unbiased insights to help you adapt to change, unearth new opportunities and develop a competitive advantage. <br>
+                <a href="form.html" style="background-color: rgb(43, 43, 43);"
+                class="btn bg-success text-light fw-semibold mt-auto">See if im applicable</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+      <!--materials div-->
+      <div class="container p-4 align-items-center" id="materials">
+        <div class="row">
+          <div class="col-md-6"><h2>Learn more about sustainable mateirals</h2>
+            <p>Discover the future of eco-friendly living with EcoHomes, the app that helps you make sustainable choices effortlessly! Whether you're building, shopping, or crafting, EcoHomes provides a curated database of sustainable materials, offering detailed information on their environmental impact, durability, and sources. With EcoHomes, you'll learn how to reduce your carbon footprint while supporting ethical products. Make informed decisions for a greener world—download EcoHomes today and start living sustainably!</p>
+            </div>
+          <div class="col-md-6"><img src="images/materials2.png" alt="header" class="img-fluid h-100 w-100 object-fit-cover ">
+            </div>
+        </div>
+      </div>
+
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-white theme_dark bg-gradient">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>EcoHomes</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Social media
+          </h6>
+          <p><a class="link text-white" href="#">instgram</a></p>
+          <p><a class="link text-white" href="#">twitter</a></p>
+          <p><a class="link text-white" href="#">facebook</a></p>
+          <p><a class="link text-white" href="#">tiktok</a></p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Customer help
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Careers</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Legal area
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Terms of service</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">About us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Conditions of sale</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> St. James's Gate, Dublin 8, D08 VF8H</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            EcoHomes@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 086 1327 1844</p>
+          <p><i class="fas fa-print me-3"></i> + 083 2773 4285</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">ecohomes@gmail.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+</body>
+
+</html>
